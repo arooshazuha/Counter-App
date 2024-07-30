@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    background-color: rgb(252, 208, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container{
+    border: solid 5px rgb(253, 162, 177);
+    background-color: pink;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(173, 123, 123);
+}
+
+h2{
+    margin: 20px auto;
+}
+
+.counter{
+    margin: 20px auto;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+button{
+    margin: 20px 5px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(253, 162, 177);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: pink;
+}
+
+button:active{
+    background-color: rgb(173, 123, 123);
+}
